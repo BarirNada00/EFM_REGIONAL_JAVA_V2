@@ -1,4 +1,4 @@
-package ma.projet.android.javaxmlv02;
+package ma.projet.android.efmjavaxml;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -19,8 +19,8 @@ public class MainActivity extends AppCompatActivity {
         heightEditText = (EditText) findViewById(R.id.height_edit_text);
 
 
-        String weightStr = weightEditText.Text.toString();
-        String heightStr = heightEditText.Text.toString();
+        String weightStr = weightEditText.getText().toString();
+        String heightStr = heightEditText.getText().toString();
 
 
         double weight = Double.parseDouble(weightStr);
